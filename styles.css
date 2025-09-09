@@ -1,0 +1,16 @@
+h1 {
+    font-size: 100px;
+}
+
+* {
+    background-color: #C0D1CE; 
+  }
+ p { color: #652E2E; }
+
+ div p {
+    font-size: 400px;
+  }
+ 
+/*p .text  { color: red; }-->*/
+
+/*p #greeting  { color: red; }-->*/
