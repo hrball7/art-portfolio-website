@@ -37,8 +37,9 @@ const WatercolorGallery: React.FC = () => {
     <GalleryGrid
       artworks={artworks}
       title="Watercolors"
-      description="Fluid, transparent works capturing the ephemeral nature of light and color through watercolor techniques."
+      description="Watercolor works on cold press paper with pen. My most popular commissioned work."
       galleryPath="/gallery/watercolor"
+      nextGalleryPath="/gallery/drawing"
     />
   );
 };

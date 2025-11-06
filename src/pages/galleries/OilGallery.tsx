@@ -40,7 +40,7 @@ const OilGallery: React.FC = () => {
       imageUrl: '/Images/oil/bestFriends.jpg'
     },
     {
-      id: '4',
+      id: '5',
       title: 'Sunday Night',
       year: 2025,
       medium: 'Oil on Canvas',
@@ -50,7 +50,7 @@ const OilGallery: React.FC = () => {
     }
     ,
     {
-      id: '4',
+      id: '6',
       title: 'Valencia',
       year: 2025,
       medium: 'Oil on Canvas',
@@ -59,7 +59,7 @@ const OilGallery: React.FC = () => {
       imageUrl: '/Images/oil/Valencia.jpg'
     },
      {
-      id: '4',
+      id: '7',
       title: 'Pug with a Human Nose',
       year: 2023,
       medium: 'Oil on Canvas',
@@ -68,7 +68,25 @@ const OilGallery: React.FC = () => {
       imageUrl: '/Images/oil/Pug.jpg'
     },
     {
-      id: '4',
+      id: '8',
+      title: 'Onion and His Ladies',
+      year: 2024,
+      medium: 'Oil on Canvas',
+      dimensions: '12 x 12',
+      description: 'A pet commission of the wonderful rooster, Onion, and his ladies.',
+      imageUrl: '/Images/oil/chickens.jpg'
+    },
+    {
+      id: '9',
+      title: 'Sunset',
+      year: 2024,
+      medium: 'Oil on Canvas',
+      dimensions: '12 x 12',
+      description: 'Sunset tribute to my childhood dog, Mel',
+      imageUrl: '/Images/oil/sunset.jpg'
+    },
+    {
+      id: '10',
       title: 'A Self Portrait',
       year: 2025,
       medium: 'Oil on Canvas',
@@ -83,8 +101,9 @@ const OilGallery: React.FC = () => {
     <GalleryGrid
       artworks={artworks}
       title="Oil Paintings"
-      description="Rich, layered works exploring color, texture, and emotional depth through traditional oil painting techniques."
+      description="Collection of my favorite oil paintings I have done. Consisting of studies, gifts, and commissions."
       galleryPath="/gallery/oil"
+      nextGalleryPath="/gallery/watercolor"
     />
   );
 };

@@ -119,9 +119,9 @@ const Contact: React.FC = () => {
                   Do you accept commissions?
                 </h3>
                 <p className="text-gray-700">
-                  Yes, I'm available for commissioned work. Please contact me with details 
-                  about your vision, timeline, and budget. I work in all mediums I showcase 
-                  on this site.
+                  Yes, I'm available for commissioned work! Please contact me with details 
+                  about your vision, timeline, and budget. I work in all the mediums I showcase 
+                  on this site, as well as acrylic on wood or canvas. 
                 </p>
               </div>
               
@@ -147,11 +147,10 @@ const Contact: React.FC = () => {
               
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="text-xl font-semibold text-black mb-3">
-                  Are your original works for sale?
+                  Do works come framed?
                 </h3>
                 <p className="text-gray-700">
-                  Many of my original works are available for purchase. Please contact me 
-                  for availability and pricing information for specific pieces.
+                  Works can be framed for an additional price, or can be sold as is!
                 </p>
               </div>
             </div>

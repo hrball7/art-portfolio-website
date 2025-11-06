@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-display font-bold mb-4">Helaina-Rose Ball</h3>
             <p className="text-gray-300 leading-relaxed">
-              Artist specializing in oil paintings, watercolors, drawings, and digital art.
+              Artist specializing in oil paintings, acrylics, watercolors, drawings, and digital art.
             </p>
           </div>
 
@@ -57,6 +57,11 @@ const Footer: React.FC = () => {
               <li>
                 <a href="/gallery/digital" className="text-gray-300 hover:text-white transition-colors duration-300">
                   Digital Art
+                </a>
+              </li>
+              <li>
+                <a href="/gallery/acrylic" className="text-gray-300 hover:text-white transition-colors duration-300">
+                  Acrylic Paintings
                 </a>
               </li>
             </ul>

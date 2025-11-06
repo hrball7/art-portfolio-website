@@ -10,6 +10,7 @@ import OilGallery from './pages/galleries/OilGallery';
 import WatercolorGallery from './pages/galleries/WatercolorGallery';
 import DrawingGallery from './pages/galleries/DrawingGallery';
 import DigitalGallery from './pages/galleries/DigitalGallery';
+import AcrylicGallery from './pages/galleries/AcrylicGallery';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/gallery/watercolor" element={<WatercolorGallery />} />
             <Route path="/gallery/drawing" element={<DrawingGallery />} />
             <Route path="/gallery/digital" element={<DigitalGallery />} />
+            <Route path="/gallery/acrylic" element={<AcrylicGallery />} />
             <Route path="/artwork/:gallery/:id" element={<ArtworkDetail />} />
           </Routes>
         </main>

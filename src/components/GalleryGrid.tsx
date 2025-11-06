@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import ArtworkCard, { ArtworkCardData } from './ArtworkCard';
 
 interface Artwork extends ArtworkCardData {}
@@ -8,9 +9,10 @@ interface GalleryGridProps {
   title: string;
   description: string;
   galleryPath: string; // e.g. "/gallery/oil"
+  nextGalleryPath?: string; // Optional path to next gallery
 }
 
-const GalleryGrid: React.FC<GalleryGridProps> = ({ artworks, title, description, galleryPath }) => {
+const GalleryGrid: React.FC<GalleryGridProps> = ({ artworks, title, description, galleryPath, nextGalleryPath }) => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header Section */}
@@ -20,9 +22,17 @@ const GalleryGrid: React.FC<GalleryGridProps> = ({ artworks, title, description,
             <h1 className="text-4xl md:text-5xl font-display font-bold text-black mb-6">
               {title}
             </h1>
-            <p className="text-xl text-gray-700 leading-relaxed">
+            <p className="text-xl text-gray-700 leading-relaxed mb-6">
               {description}
             </p>
+            {nextGalleryPath && (
+              <Link
+                to={nextGalleryPath}
+                className="inline-flex items-center gap-2 text-sm font-medium text-art-blue-600 hover:text-art-blue-700 transition-colors duration-300 border-b border-art-blue-600 hover:border-art-blue-700 pb-1"
+              >
+                More Works →
+              </Link>
+            )}
           </div>
         </div>
       </section>

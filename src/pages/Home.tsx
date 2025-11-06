@@ -48,18 +48,15 @@ const Home: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
             {/* Oil Painting */}
             <Link to="/gallery/oil" className="group">
-              <div className="aspect-square bg-gradient-to-br from-amber-200 to-amber-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                {/* TODO: Replace with actual oil painting image */}
-                <div className="flex items-center justify-center h-full text-white text-xl font-medium">
-                  <img 
-                      src="/Images/oil/piano.jpeg" 
-                      alt="Helaina-Rose Ball - Artist Portfolio"
-                      className="w-full h-full object-cover"
-                    />
-                </div>
+              <div className="aspect-square bg-gradient-to-br from-amber-200 to-amber-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img 
+                  src="/Images/oil/Valencia.jpg" 
+                  alt="Oil Paintings"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">
                 Oil Paintings
@@ -68,11 +65,12 @@ const Home: React.FC = () => {
 
             {/* Watercolor */}
             <Link to="/gallery/watercolor" className="group">
-              <div className="aspect-square bg-gradient-to-br from-blue-200 to-blue-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                {/* TODO: Replace with actual watercolor image */}
-                <div className="flex items-center justify-center h-full text-white text-lg font-medium">
-                  Watercolor
-                </div>
+              <div className="aspect-square bg-gradient-to-br from-blue-200 to-blue-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img 
+                  src="/Images/watercolor/Horses.jpg" 
+                  alt="Watercolors"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">
                 Watercolors
@@ -81,11 +79,12 @@ const Home: React.FC = () => {
 
             {/* Drawing */}
             <Link to="/gallery/drawing" className="group">
-              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                {/* TODO: Replace with actual drawing image */}
-                <div className="flex items-center justify-center h-full text-white text-lg font-medium">
-                  Drawing
-                </div>
+              <div className="aspect-square bg-gradient-to-br from-gray-200 to-gray-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img 
+                  src="/Images/drawing/girl.jpg" 
+                  alt="Drawings"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">
                 Drawings
@@ -94,14 +93,27 @@ const Home: React.FC = () => {
 
             {/* Digital */}
             <Link to="/gallery/digital" className="group">
-              <div className="aspect-square bg-gradient-to-br from-purple-200 to-purple-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                {/* TODO: Replace with actual digital art image */}
-                <div className="flex items-center justify-center h-full text-white text-lg font-medium">
-                  Digital Art
-                </div>
+              <div className="aspect-square bg-gradient-to-br from-purple-200 to-purple-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <img 
+                  src="/Images/Digital/audrey22-01.png" 
+                  alt="Digital Art"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">
                 Digital Art
+              </h3>
+            </Link>
+
+            {/* Acrylic */}
+            <Link to="/gallery/acrylic" className="group">
+              <div className="aspect-square bg-gradient-to-br from-orange-200 to-orange-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                <div className="flex items-center justify-center h-full text-white text-lg font-medium">
+                  Acrylic
+                </div>
+              </div>
+              <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">
+                Acrylic Paintings
               </h3>
             </Link>
           </div>

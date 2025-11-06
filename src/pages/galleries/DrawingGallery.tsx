@@ -2,7 +2,6 @@ import React from 'react';
 import GalleryGrid from '../../components/GalleryGrid';
 
 const DrawingGallery: React.FC = () => {
-  // TODO: Replace with actual artwork data
   const artworks = [
     {
       id: '1',
@@ -11,7 +10,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Graphite on Paper',
       dimensions: '11" x 14"',
       description: 'Detailed study of form and texture.',
-      imageUrl: '/images/drawing-1.jpg' // TODO: Replace with actual image URL
+      imageUrl: '/images/drawing/girl.jpg' // TODO: Replace with actual image URL
     },
     {
       id: '2',
@@ -20,16 +19,25 @@ const DrawingGallery: React.FC = () => {
       medium: 'Charcoal on Paper',
       dimensions: '14" x 18"',
       description: 'Bold exploration of value and contrast.',
-      imageUrl: '/images/drawing-2.jpg' // TODO: Replace with actual image URL
+      imageUrl: '/images/drawing/plantCharcoal.jpg' // TODO: Replace with actual image URL
     },
     {
       id: '3',
-      title: 'Sample Drawing 3',
+      title: 'Sacre Coeur',
       year: 2023,
       medium: 'Ink on Paper',
-      dimensions: '8" x 10"',
-      description: 'Intimate study of line and gesture.',
-      imageUrl: '/images/drawing-3.jpg' // TODO: Replace with actual image URL
+      dimensions: '11" x 14"',
+      description: 'Pen stippling study of Monte Marte in Paris, France.',
+      imageUrl: '/images/drawing/sacre coeur.jpg'
+    },
+    {
+      id: '4',
+      title: 'Hungry',
+      year: 2025,
+      medium: 'Ink and Marker on Paper',
+      dimensions: '5" x 7"',
+      description: 'Ink and Marker drawing of my hands picking a part a pomegranate.',
+      imageUrl: '/images/drawing/pomegranete.jpg'
     }
   ];
 
@@ -37,8 +45,9 @@ const DrawingGallery: React.FC = () => {
     <GalleryGrid
       artworks={artworks}
       title="Drawings"
-      description="Intimate studies exploring line, value, and form through various drawing mediums including graphite, charcoal, and ink."
+      description="Studies and commissions using an array of drawing materials including pen, graphite, and charcoal."
       galleryPath="/gallery/drawing"
+      nextGalleryPath="/gallery/digital"
     />
   );
 };

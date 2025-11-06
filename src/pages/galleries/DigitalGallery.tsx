@@ -66,6 +66,7 @@ const DigitalGallery: React.FC = () => {
       title="Digital Art"
       description="Graphic illustrations made using Adobe Illustrator and Adobe Photoshop"
       galleryPath="/gallery/digital"
+      nextGalleryPath="/gallery/acrylic"
     />
   );
 };
