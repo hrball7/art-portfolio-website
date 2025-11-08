@@ -18,7 +18,7 @@ const OilGallery: React.FC = () => {
       year: 2025,
       medium: 'Oil on Canvas',
       dimensions: '18" x 24"',
-      description: 'An intimate study of light and shadow.',
+      description: 'A surreal and satircal piece I did, featuring a pianist in the desert.',
       imageUrl: '/Images/oil/piano.jpeg'
     },
     {
@@ -27,7 +27,7 @@ const OilGallery: React.FC = () => {
       year: 2025,
       medium: 'Oil on Canvas',
       dimensions: '8" x 10"',
-      description: 'An experimental study of texture, flesh, and intamicy',
+      description: 'An experimental study of texture, flesh, and intimicy',
       imageUrl: '/Images/oil/Foot Supported by Boy.jpeg'
     },
     {
