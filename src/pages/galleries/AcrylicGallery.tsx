@@ -8,8 +8,8 @@ const AcrylicGallery: React.FC = () => {
       title: 'Seville',
       year: 2023,
       medium: 'Acrylic on Canvas',
-      Dimensions: '12 x 14',
-      description: 'A vibrant exploration of color and texture.',
+      Dimensions: '12" x 14"',
+      description: 'A favorite place and memory of mine in Seville, Spain',
       imageUrl: '/Images/acrylic/seville.jpg' 
     },
     {
@@ -17,17 +17,18 @@ const AcrylicGallery: React.FC = () => {
       title: 'Let The Light In',
       year: 2024,
       medium: 'Acrylic on Canvas',
-      Dimensions: '5 x 7',
-      description: 'An intimate study of light and shadow.',
-      imageUrl: '/Images/acrylic/Octopus.jpg' // TODO: Replace with actual image URL
+      dimensions: '5" x 7"',
+      description: 'A gift for my partner, and one of my favorite recurring dreams',
+      imageUrl: '/Images/acrylic/Octopus.jpg'
     },
     {
       id: '3',
       title: 'Phatso',
-      year: 2023,
-      medium: 'Acrylic on Canvas',
-      description: 'A large-scale exploration of form and movement.',
-      imageUrl: '/Images/acrylic/placeholder.jpg' // TODO: Replace with actual image URL
+      year: 2024,
+      medium: 'Acrylic on Wood',
+      dimensions: '8" diameter',
+      description: 'A pet commission of Jack Russel Terrier, Phatso',
+      imageUrl: '/Images/acrylic/phatso.jpg' 
     }
   ];
 
@@ -35,7 +36,7 @@ const AcrylicGallery: React.FC = () => {
     <GalleryGrid
       artworks={artworks}
       title="Acrylic Paintings"
-      description="Bold, vibrant works exploring color relationships and texture through acrylic painting techniques."
+      description="A collection of my acrylic paintings done on canvas or wood."
       galleryPath="/gallery/acrylic"
       nextGalleryPath="/gallery/oil"
     />

@@ -2,7 +2,6 @@ import React from 'react';
 import GalleryGrid from '../../components/GalleryGrid';
 
 const WatercolorGallery: React.FC = () => {
-  // TODO: Replace with actual artwork data
   const artworks = [
     {
       id: '1',
@@ -11,7 +10,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor and Pen on Paper',
       dimensions: '9" x 12"',
       description: 'Commissioned Artwork of a church.',
-      imageUrl: '/images/watercolor/Church.jpg' // church
+      imageUrl: '/images/watercolor/Church.jpg'
     },
     {
       id: '2',
@@ -20,16 +19,70 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor and Pen on Paper',
       dimensions: '9" x 12"',
       description: 'Study of form and light featuring one of my favorite animals.',
-      imageUrl: '/images/watercolor/Horses.jpg' // horses
+      imageUrl: '/images/watercolor/Horses.jpg' 
     },
     {
       id: '3',
       title: 'Home',
       year: 2025,
-      medium: 'Watercolor on Paper',
+      medium: 'Watercolor and Pen on Paper',
       dimensions: '11" x 14"',
       description: 'Commissioned piece for new home buyers.',
-      imageUrl: '/images/watercolor/House.jpg' // house
+      imageUrl: '/images/watercolor/House.jpg' 
+    },
+    {
+      id: '4',
+      title: 'Brigit',
+      year: 2024,
+      medium: 'Watercolor on Paper',
+      dimensions: '11" x 14"',
+      description: 'Portrait of my bestfriend',
+      imageUrl: '/images/watercolor/brigit.jpg' 
+    },
+    {
+      id: '5',
+      title: 'Orange Coneflowers and Common Blue',
+      year: 2022,
+      medium: 'Watercolor on Paper',
+      dimensions: '5" x 7"',
+      description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
+      imageUrl: '/images/watercolor/flower1.jpg' 
+    },
+        {
+      id: '6',
+      title: 'Cornflower and Eastern Tiger Swallowtail',
+      year: 2022,
+      medium: 'Watercolor on Paper',
+      dimensions: '5" x 7"',
+      description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
+      imageUrl: '/images/watercolor/flower11.jpg' 
+    },
+        {
+      id: '7',
+      title: 'Common Blue and Cosmos',
+      year: 2022,
+      medium: 'Watercolor on Paper',
+      dimensions: '11" x 14"',
+      description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
+      imageUrl: '/images/watercolor/flower3.jpg' 
+    },
+        {
+      id: '8',
+      title: "Black Swallowtail and Bee's Flame",
+      year: 2022,
+      medium: 'Watercolor on Paper',
+      dimensions: '5" x 7"',
+      description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
+      imageUrl: '/images/watercolor/flower4.jpg' 
+    },
+        {
+      id: '9',
+      title: 'Allium and Monarch',
+      year: 2022,
+      medium: 'Watercolor on Paper',
+      dimensions: '5" x 7"',
+      description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
+      imageUrl: '/images/watercolor/flower5.jpg' 
     }
   ];
 

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import News from './pages/News';
 import ArtworkDetail from './pages/ArtworkDetail';
 import OilGallery from './pages/galleries/OilGallery';
 import WatercolorGallery from './pages/galleries/WatercolorGallery';
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/news" element={<News />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery/oil" element={<OilGallery />} />
             <Route path="/gallery/watercolor" element={<WatercolorGallery />} />

@@ -25,11 +25,11 @@ const ArtworkCard: React.FC<ArtworkCardProps> = ({ artwork, galleryPath }) => {
       state={{ artwork, from: galleryPath }}
       className="group cursor-pointer block"
     >
-      <div className="aspect-square rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300 overflow-hidden">
+      <div className="aspect-square rounded-lg shadow-lg group-hover:shadow-xl transition-all duration-300 overflow-hidden bg-gray-100 flex items-center justify-center">
         <img
           src={artwork.imageUrl}
           alt={artwork.title}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          className="max-w-full max-h-full w-auto h-auto object-contain group-hover:scale-105 transition-transform duration-300"
           onError={(e) => {
             e.currentTarget.style.display = 'none';
             const fallback = e.currentTarget.nextElementSibling as HTMLElement;

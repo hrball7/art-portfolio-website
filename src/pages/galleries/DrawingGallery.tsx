@@ -5,21 +5,21 @@ const DrawingGallery: React.FC = () => {
   const artworks = [
     {
       id: '1',
-      title: 'Sample Drawing 1',
+      title: 'Little Girl',
       year: 2024,
       medium: 'Graphite on Paper',
       dimensions: '11" x 14"',
-      description: 'Detailed study of form and texture.',
-      imageUrl: '/images/drawing/girl.jpg' // TODO: Replace with actual image URL
+      description: 'Commissioned portrait of a spunky, young girl',
+      imageUrl: '/images/drawing/girl.jpg' 
     },
     {
       id: '2',
-      title: 'Sample Drawing 2',
+      title: 'Plant',
       year: 2024,
       medium: 'Charcoal on Paper',
       dimensions: '14" x 18"',
-      description: 'Bold exploration of value and contrast.',
-      imageUrl: '/images/drawing/plantCharcoal.jpg' // TODO: Replace with actual image URL
+      description: 'Quick contour study of organic forms',
+      imageUrl: '/images/drawing/plantCharcoal.jpg' 
     },
     {
       id: '3',
@@ -36,8 +36,26 @@ const DrawingGallery: React.FC = () => {
       year: 2025,
       medium: 'Ink and Marker on Paper',
       dimensions: '5" x 7"',
-      description: 'Ink and Marker drawing of my hands picking a part a pomegranate.',
+      description: 'Ink and Marker drawing of my hands picking apart a pomegranate.',
       imageUrl: '/images/drawing/pomegranete.jpg'
+    },
+    {
+      id: '5',
+      title: 'Chandeliers',
+      year: 2023,
+      medium: 'Color Pencil on Paper',
+      dimensions: '8" x 10"',
+      description: 'Colored pencil study of light and form, depicting a dream I had',
+      imageUrl: '/images/drawing/octopuslights.jpg'
+    },
+    {
+      id: '6',
+      title: 'Christmas Time',
+      year: 2022,
+      medium: 'Graphite on Paper',
+      dimensions: '5" x 7"',
+      description: 'Drawing study of different textures, shadows, and flesh',
+      imageUrl: '/images/drawing/hand.jpg'
     }
   ];
 

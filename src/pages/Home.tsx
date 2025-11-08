@@ -109,7 +109,11 @@ const Home: React.FC = () => {
             <Link to="/gallery/acrylic" className="group">
               <div className="aspect-square bg-gradient-to-br from-orange-200 to-orange-400 rounded-lg shadow-lg group-hover:shadow-xl transition-shadow duration-300 overflow-hidden">
                 <div className="flex items-center justify-center h-full text-white text-lg font-medium">
-                  Acrylic
+                 <img 
+                  src="/Images/acrylic/seville.jpg" 
+                  alt="Digital Art"
+                  className="w-full h-full object-cover"
+                />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-black mt-4 group-hover:text-art-blue-600 transition-colors duration-300">

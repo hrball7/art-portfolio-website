@@ -23,6 +23,7 @@ const Header: React.FC = () => {
   const navigation = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
+    { name: 'News', path: '/news' },
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -129,6 +130,17 @@ const Header: React.FC = () => {
             </div>
             
             <Link
+              to="/news"
+              className={`font-medium transition-colors duration-300 ${
+                isActive('/news')
+                  ? 'text-art-blue-600 border-b-2 border-art-blue-600'
+                  : 'text-black hover:text-art-blue-600'
+              }`}
+            >
+              News
+            </Link>
+            
+            <Link
               to="/contact"
               className={`font-medium transition-colors duration-300 ${
                 isActive('/contact')
@@ -201,6 +213,18 @@ const Header: React.FC = () => {
                   ))}
                 </div>
               </div>
+              
+              <Link
+                to="/news"
+                className={`block font-medium transition-colors duration-300 ${
+                  isActive('/news')
+                    ? 'text-art-blue-600'
+                    : 'text-black hover:text-art-blue-600'
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                News
+              </Link>
               
               <Link
                 to="/contact"

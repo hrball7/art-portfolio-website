@@ -32,7 +32,7 @@ const DigitalGallery: React.FC = () => {
       imageUrl: '/Images/Digital/botgraphic2-01.png' // BOT hand/board game graphic
     },
     {
-      id: '1',
+      id: '4',
       title: 'DOGE Graphic',
       year: 2025,
       medium: 'Digital Painting',
@@ -41,7 +41,7 @@ const DigitalGallery: React.FC = () => {
       imageUrl: '/Images/Digital/doge2-01.png' //uncle same?
     },
     {
-      id: '1',
+      id: '5',
       title: 'Plan B Distribution Graphic',
       year: 2025,
       medium: 'Digital Painting',
@@ -50,7 +50,7 @@ const DigitalGallery: React.FC = () => {
       imageUrl: '/Images/Digital/planB2-01.png' // plan b graphic
     },
     {
-      id: '1',
+      id: '6',
       title: 'UNC Basketball Graphic',
       year: 2025,
       medium: 'Digital Painting',
