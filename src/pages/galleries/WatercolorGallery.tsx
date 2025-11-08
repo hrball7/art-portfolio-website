@@ -10,7 +10,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor and Pen on Paper',
       dimensions: '9" x 12"',
       description: 'Commissioned Artwork of a church.',
-      imageUrl: '/images/watercolor/Church.jpg'
+      imageUrl: '/Images/watercolor/Church.jpg'
     },
     {
       id: '2',
@@ -19,7 +19,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor and Pen on Paper',
       dimensions: '9" x 12"',
       description: 'Study of form and light featuring one of my favorite animals.',
-      imageUrl: '/images/watercolor/Horses.jpg' 
+      imageUrl: '/Images/watercolor/Horses.jpg' 
     },
     {
       id: '3',
@@ -28,7 +28,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor and Pen on Paper',
       dimensions: '11" x 14"',
       description: 'Commissioned piece for new home buyers.',
-      imageUrl: '/images/watercolor/House.jpg' 
+      imageUrl: '/Images/watercolor/house.jpg' 
     },
     {
       id: '4',
@@ -37,7 +37,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '11" x 14"',
       description: 'Portrait of my bestfriend',
-      imageUrl: '/images/watercolor/brigit.jpg' 
+      imageUrl: '/Images/watercolor/brigit.jpg' 
     },
     {
       id: '5',
@@ -46,7 +46,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '5" x 7"',
       description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
-      imageUrl: '/images/watercolor/flower1.jpg' 
+      imageUrl: '/Images/watercolor/flower1.jpg' 
     },
         {
       id: '6',
@@ -55,7 +55,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '5" x 7"',
       description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
-      imageUrl: '/images/watercolor/flower11.jpg' 
+      imageUrl: '/Images/watercolor/flower11.jpg' 
     },
         {
       id: '7',
@@ -64,7 +64,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '11" x 14"',
       description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
-      imageUrl: '/images/watercolor/flower3.jpg' 
+      imageUrl: '/Images/watercolor/flower3.jpg' 
     },
         {
       id: '8',
@@ -73,7 +73,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '5" x 7"',
       description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
-      imageUrl: '/images/watercolor/flower4.jpg' 
+      imageUrl: '/Images/watercolor/flower4.jpg' 
     },
         {
       id: '9',
@@ -82,7 +82,7 @@ const WatercolorGallery: React.FC = () => {
       medium: 'Watercolor on Paper',
       dimensions: '5" x 7"',
       description: "Part of a series of flower and butterfly works for the Women's Center in Raleigh",
-      imageUrl: '/images/watercolor/flower5.jpg' 
+      imageUrl: '/Images/watercolor/flower5.jpg' 
     }
   ];
 

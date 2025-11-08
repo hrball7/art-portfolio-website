@@ -10,7 +10,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Graphite on Paper',
       dimensions: '11" x 14"',
       description: 'Commissioned portrait of a spunky, young girl',
-      imageUrl: '/images/drawing/girl.jpg' 
+      imageUrl: '/Images/drawing/girl.jpg' 
     },
     {
       id: '2',
@@ -19,7 +19,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Charcoal on Paper',
       dimensions: '14" x 18"',
       description: 'Quick contour study of organic forms',
-      imageUrl: '/images/drawing/plantCharcoal.jpg' 
+      imageUrl: '/Images/drawing/plantCharcoal.jpg' 
     },
     {
       id: '3',
@@ -28,7 +28,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Ink on Paper',
       dimensions: '11" x 14"',
       description: 'Pen stippling study of Monte Marte in Paris, France.',
-      imageUrl: '/images/drawing/sacre coeur.jpg'
+      imageUrl: '/Images/drawing/sacre coeur.jpg'
     },
     {
       id: '4',
@@ -37,7 +37,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Ink and Marker on Paper',
       dimensions: '5" x 7"',
       description: 'Ink and Marker drawing of my hands picking apart a pomegranate.',
-      imageUrl: '/images/drawing/pomegranete.jpg'
+      imageUrl: '/Images/drawing/pomegranete.jpg'
     },
     {
       id: '5',
@@ -46,7 +46,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Color Pencil on Paper',
       dimensions: '8" x 10"',
       description: 'Colored pencil study of light and form, depicting a dream I had',
-      imageUrl: '/images/drawing/octopuslights.jpg'
+      imageUrl: '/Images/drawing/octopuslights.jpg'
     },
     {
       id: '6',
@@ -55,7 +55,7 @@ const DrawingGallery: React.FC = () => {
       medium: 'Graphite on Paper',
       dimensions: '5" x 7"',
       description: 'Drawing study of different textures, shadows, and flesh',
-      imageUrl: '/images/drawing/hand.jpg'
+      imageUrl: '/Images/drawing/hand.jpg'
     }
   ];
 
