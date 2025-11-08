@@ -43,6 +43,9 @@ const Contact: React.FC = () => {
                       <p className="text-gray-700">
                         Instagram: @helainab_art
                       </p>
+                      <p className="text-gray-700">
+                        Facebook: @Art by H
+                      </p>
                     </div>
                   </div>
                   
@@ -80,19 +83,20 @@ const Contact: React.FC = () => {
                     <h3 className="text-xl font-semibold text-black mb-4">
                       Contact Form
                     </h3>
-                    <p className="text-gray-600 mb-6">
+                    <div className="text-gray-600 mb-6">
                       <iframe 
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSd_UtcSkDBTcbSW-4B-ubebYlu8xGBP-6YL0YyCyRM4J6FYzw/viewform?usp=dialog" 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSd_UtcSkDBTcbSW-4B-ubebYlu8xGBP-6YL0YyCyRM4J6FYzw/viewform?embedded=true" 
                         width="100%" 
                         height="600" 
                         frameBorder="0" 
                         marginHeight={0} 
                         marginWidth={0}
                         className="rounded-lg"
+                        title="Contact Form"
                       >
                         Loading…
                       </iframe>
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

@@ -20,13 +20,6 @@ const Header: React.FC = () => {
     { name: 'Acrylic', path: '/gallery/acrylic' },
   ];
 
-  const navigation = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'News', path: '/news' },
-    { name: 'Contact', path: '/contact' },
-  ];
-
   // Handle dropdown with 3 second delay
   const handleMouseEnter = () => {
     if (dropdownTimeoutRef.current) {
