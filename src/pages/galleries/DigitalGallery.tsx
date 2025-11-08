@@ -2,7 +2,6 @@ import React from 'react';
 import GalleryGrid from '../../components/GalleryGrid';
 
 const DigitalGallery: React.FC = () => {
-  // TODO: Replace with actual artwork data
   const artworks = [
     {
       id: '1',

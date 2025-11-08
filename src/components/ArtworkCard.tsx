@@ -13,7 +13,7 @@ export interface ArtworkCardData {
 
 interface ArtworkCardProps {
   artwork: ArtworkCardData;
-  galleryPath: string; // e.g. "/gallery/oil"
+  galleryPath: string; 
 }
 
 const ArtworkCard: React.FC<ArtworkCardProps> = ({ artwork, galleryPath }) => {

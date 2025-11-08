@@ -144,7 +144,6 @@ const Home: React.FC = () => {
             {/* Artist Photo Placeholder */}
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-art-blue-300 to-art-blue-500 rounded-lg shadow-2xl">
-                {/* TODO: Replace with actual artist photo */}
                 <div className="flex items-center justify-center h-full text-white text-xl font-medium">
                   <img 
                       src="/Images/P1070921.JPG" 

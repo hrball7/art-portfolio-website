@@ -33,7 +33,6 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-black mb-2">Email</h3>
                     <p className="text-gray-700">
-                      {/* TODO: Replace with actual email */}
                       ms.hr.ball@gmail.com
                     </p>
                   </div>
@@ -42,7 +41,6 @@ const Contact: React.FC = () => {
                     <h3 className="text-xl font-semibold text-black mb-2">Social Media</h3>
                     <div className="space-y-2">
                       <p className="text-gray-700">
-                        {/* TODO: Replace with actual social media links */}
                         Instagram: @helainab_art
                       </p>
                     </div>
@@ -51,7 +49,6 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-black mb-2">Location</h3>
                     <p className="text-gray-700">
-                      {/* TODO: Replace with actual location */}
                       Chapel Hill, North Carolina
                     </p>
                   </div>
@@ -84,7 +81,6 @@ const Contact: React.FC = () => {
                       Contact Form
                     </h3>
                     <p className="text-gray-600 mb-6">
-                      {/* TODO: Replace the iframe src with your actual Google Form URL */}
                       <iframe 
                         src="https://docs.google.com/forms/d/e/1FAIpQLSd_UtcSkDBTcbSW-4B-ubebYlu8xGBP-6YL0YyCyRM4J6FYzw/viewform?usp=dialog" 
                         width="100%" 

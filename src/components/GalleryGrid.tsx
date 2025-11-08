@@ -8,8 +8,8 @@ interface GalleryGridProps {
   artworks: Artwork[];
   title: string;
   description: string;
-  galleryPath: string; // e.g. "/gallery/oil"
-  nextGalleryPath?: string; // Optional path to next gallery
+  galleryPath: string; 
+  nextGalleryPath?: string; 
 }
 
 const GalleryGrid: React.FC<GalleryGridProps> = ({ artworks, title, description, galleryPath, nextGalleryPath }) => {
